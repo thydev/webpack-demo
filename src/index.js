@@ -1,15 +1,15 @@
-import _ from "lodash";
-import printMe from "./print.js";
+import _ from 'lodash';
+import printMe from './print.js';
 
 function component() {
-  var element = document.createElement("div");
-  var btn = document.createElement("button");
+  var element = document.createElement('div');
+  var btn = document.createElement('button');
 
   // Lodash, now imported by this script
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  element.classList.add("hello");
+  element.innerHTML = _.join(['Hello', 'webpack', 'dev-server'], ' ');
+  element.classList.add('hello');
 
-  btn.innerHTML = "Click me and check the console!";
+  btn.innerHTML = 'Click me and check the console!';
   btn.onclick = printMe;
 
   element.appendChild(btn);

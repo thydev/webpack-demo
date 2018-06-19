@@ -1,5 +1,10 @@
 {
   "name": "webpack-demo",
+  "sideEffects": [
+    "./src/math.js",
+    "./src/index.js",
+    "*.css"
+  ],
   "version": "1.0.0",
   "description": "",
   "private": true,

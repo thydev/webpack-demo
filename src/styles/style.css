@@ -1,4 +1,11 @@
+@font-face {
+  font-family: "Spirax-Regular";
+  src: url(../fonts/Spirax-Regular.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
 .hello {
   color: rebeccapurple;
   background: url("../images/xtocat.jpg");
+  font-family: "Spirax-Regular";
 }

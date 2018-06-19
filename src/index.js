@@ -1,6 +1,7 @@
 import _ from "lodash";
 import "./styles/style.css";
 import xtocat from "./images/xtocat.jpg";
+import Data from "./data/data.xml";
 
 function component() {
   var element = document.createElement("div");
@@ -13,6 +14,8 @@ function component() {
   var myImg = new Image();
   myImg.src = xtocat;
   element.appendChild(myImg);
+
+  console.log(Data);
 
   return element;
 }
